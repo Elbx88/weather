@@ -12,3 +12,6 @@ st.markdown("""
 > Amazing quote
 
 """)
+
+st.radio("which desert are best ?", ["cake","icecream","pie"])
+
