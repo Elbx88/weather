@@ -3,6 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
+secret = st.secrets["MY_SECRET"] # access my secret
+st.text(f"my secret is {secret},dont tell anyone")
 # Load dataset
 df = sns.load_dataset('penguins').dropna()
 df = df.dropna()
